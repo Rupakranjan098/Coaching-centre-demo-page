@@ -624,12 +624,13 @@
   box-shadow: var(--shadow-lg);
 }
 .hostel-card {
-  background: linear-gradient(135deg, #fff8e1 0%, #fff3cd 100%);
+  background: #fffef2;
   border: 1px solid rgba(232, 166, 30, 0.2);
 }
 .about-card {
-  background: var(--bg-light);
+  background: #ffffff;
   border: 1px solid var(--border-color);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.04);
 }
 .troopers-page-card {
   background: linear-gradient(135deg, var(--primary-navy) 0%, var(--primary-navy-light) 100%);

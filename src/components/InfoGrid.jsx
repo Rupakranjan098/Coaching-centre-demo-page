@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, CheckCircle } from 'lucide-react';
 import hostelImg from '../assets/hostel_room.png';
 import soldierSilhouette from '../assets/soldier_silhouette.png';
 
@@ -33,7 +33,7 @@ export default function InfoGrid() {
             <ul className="card-list">
               {hostelList.map((item, i) => (
                 <li key={i}>
-                  <CheckCircle2 size={16} className="gold-icon" />
+                  <CheckCircle size={16} className="gold-icon" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -77,7 +77,7 @@ export default function InfoGrid() {
             <ul className="card-list">
               {troopersList.map((item, i) => (
                 <li key={i}>
-                  <CheckCircle2 size={16} className="gold-icon" />
+                  <CheckCircle size={16} className="gold-icon" />
                   <span>{item}</span>
                 </li>
               ))}
